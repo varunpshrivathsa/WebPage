@@ -1,0 +1,86 @@
+div {
+  background-color: #36adbb;
+}
+h2 {
+  font-size: 50px;
+  color: #ffffff;
+}
+p {
+  font-size: 40px;
+}
+table {
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid white;
+}
+body {
+  background-color: #36adbb;
+  margin: 0;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+td {
+  padding: 0 20px;
+}
+.cimages {
+  width: 500px;
+}
+.container {
+  margin-right: 50px;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  float: left;
+  width: 100px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 50px;
+  position: relative;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: larger;
+}
+nav a:hover {
+  color: #36adbb;
+}
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #36adbb;
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 300ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+.bottom-container {
+  background-color: white;
+}
+.copyright {
+  color: #000000;
+}
